@@ -65,7 +65,7 @@ header {
     /* width: 100px; */
     height: 355px;
 
-    border: 1px solid white;
+    /* border: 1px solid white; */
 
     background-color: lightskyblue;
 
@@ -79,7 +79,7 @@ header {
 }
 
 .central {
-    width: 66.44%;
+    width: calc(100% - 30% - 40px);
 
     float: left;
 
@@ -93,6 +93,6 @@ footer {
     background-color: purple;
 
     margin: 10px auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
